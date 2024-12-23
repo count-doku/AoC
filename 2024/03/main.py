@@ -7,7 +7,7 @@ def mul(tuple):
     return result
 
 
-pattern = "mul\(([0-9]{1,3}),([0-9]{1,3})\)"
+pattern = r"mul\(([0-9]{1,3}),([0-9]{1,3})\)"
 results = []
 with open("2024/03/input") as file:
     while line := file.readline():
